@@ -31,5 +31,5 @@ app.route('banana')
 
 
 app.listen(port, () => {
-    console.log(`on port: ${port}`);
+    console.log(`on port: ${port} ${process.env.PASSWORD}`);
 })

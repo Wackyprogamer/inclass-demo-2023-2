@@ -1,6 +1,14 @@
 {
+  "scripts": {
+    "local": "node -r dotenv/config app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.2",
+    "uninstall": "^0.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
   }
 }
